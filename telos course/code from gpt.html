@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Chat Interface</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Chat with ChatGPT</h1>
+        <p>Status: <span id="status">Connected</span></p>
+    </header>
+
+    <!-- Chat Container -->
+    <div class="chat-container">
+        
+        <!-- Message Display Area -->
+        <div class="messages" id="messages">
+            <div class="message bot">
+                <strong>Bot:</strong> Hello! How can I help you today?
+            </div>
+            <div class="message user">
+                <strong>You:</strong> Hi, I have a question.
+            </div>
+            <!-- More messages will appear here -->
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-area">
+            <!-- Text Input -->
+            <input type="text" id="userInput" placeholder="Type your message here...">
+            
+            <!-- File Upload -->
+            <input type="file" id="fileUpload" title="Upload a file" style="display:none;">
+            <label for="fileUpload" style="cursor:pointer;">📎</label>
+
+            <!-- Send Button -->
+            <button id="sendButton">Send</button>
+        </div>
+
+    </div>
+</body>
+</html>
