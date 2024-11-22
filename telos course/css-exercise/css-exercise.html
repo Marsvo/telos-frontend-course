@@ -1,0 +1,139 @@
+<html lang="en">
+<head>
+    <title>css exercise</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <style>     
+         /* typography style */   
+        h1 {
+            font-family: "inter", sans-serif ;
+            font-size: 72px;
+            font-weight: 800;
+            line-height: 98px;
+        }
+        p {
+            font-family: "inter", sans-serif ;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 0px;
+        }
+
+
+
+        /* website layout */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+
+        .navigation-bar {
+            width: 100%;
+            max-width: 1110px;
+            height: 72px;
+
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .hero-banner {
+            width: 100%;
+            max-width: 1110px;
+            height: 790px;
+            overflow: hidden;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 94px;
+        }
+
+        .menu {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+        }
+
+        .button {
+            display: flex;
+            justify-content: flex-end;
+            gap: 32px;
+            align-items: center;
+        }
+
+        .text-block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+        }
+
+        .title {
+            text-align: center;       
+         }
+
+        .cta-button {
+            color: white;
+            background-color: rgba(140, 48, 245, 1);
+            border-radius: 6px;
+            padding: 12px 32px;
+        }
+
+        .visual {
+            
+        }
+
+        .circle {
+            width: 1200px;
+            height: 1200px;
+            border-radius: 50%;
+            background: rgba(140, 48, 245, 1);
+
+        }
+
+    </style>
+    <div class="container">
+        <div class="navigation-bar">
+            <div class="menu">
+                <img src="img/Dark.png" alt="">
+                <p>About</p>
+                <p>Products</p>
+                <p>Pricing</p>
+                <p>Blog</p>
+                <p>Jobs</p>
+                <p>More</p>
+            </div>
+
+            <div class="button">
+                <img src="img/Google Play Badge.png" alt="">
+                <img src="img/App Store Badge.png" alt="">
+            </div>
+        </div>
+
+        <div class="hero-banner">
+            <div class="text-block">
+                <div class="title">
+                    <h1>Track your product sales from anywhere, anytime.</h1>
+                </div>
+                <div class="cta-button">
+                    <p>Start Selling</p>
+                </div>
+            </div>
+
+            <div class="visual">
+                <div>
+                    <img src="img/iPhone X.png" alt="">
+                </div>
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
