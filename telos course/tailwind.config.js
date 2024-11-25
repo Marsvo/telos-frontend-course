@@ -1,5 +1,6 @@
 module.exports = {
   content: [
+
     "./*.html",
     "./*/*.html",
   ],
@@ -17,9 +18,3 @@ module.exports = {
         lead1: ["18px","32px"],
       }
     },
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
-}
