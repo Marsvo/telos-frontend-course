@@ -3,13 +3,12 @@ module.exports = {
 
     "./*.html",
     "./*/*.html",
-    "./*.html",
-    "./*/*.html",
   ],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     
     extend: {
+      
 
       colors: {
         primary: "#fc9003",
