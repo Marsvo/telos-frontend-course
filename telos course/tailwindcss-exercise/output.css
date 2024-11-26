@@ -588,6 +588,19 @@ video {
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .flex {
   display: flex;
 }
@@ -596,6 +609,70 @@ video {
   display: table;
 }
 
+.hidden {
+  display: none;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-12 {
+  gap: 3rem;
+}
+
+.gap-16 {
+  gap: 4rem;
+}
+
+.gap-7 {
+  gap: 1.75rem;
+}
+
 .border {
   border-width: 1px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-body {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.text-h2 {
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.text-h5 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.text-lead1 {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
