@@ -16,24 +16,46 @@
             width: 24px; /* Đặt chiều rộng của hình vuông */
             height: 14px; /* Đặt chiều rộng của hình vuông */
             clip-path: polygon(0% 0%, 100% 0%, 50% 100%); /* Tạo hình tam giác bằng clip-path */
+        }
 
-            
-}
+        .fill-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: white;
+        }
+
+        .outline-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 2px solid white;
+            opacity: 50%;
+        }
+
+        .circle {
+            width: 540px;
+            height: 540px;
+            border-radius: 50%;
+            background-color: aqua;
+        }
         
     </style>
     
     <div class="flex flex-col items-center">
-        <div class="bg-primary">
-            <div class="container grid grid-cols-2 gap-8">
+        <!-- SECTION 1 -->
+        <div class="bg-primary w-full">
+            <div class="container mx-auto grid grid-cols-2 gap-8 my-20">
+                <!-- TITLE -->
                 <div class="col-span-2 text-h2 text-white font-extrabold">Our clients speak</div>
                 
                 <!-- TESTINMONIALS -->
                 <div class="flex flex-col items-center">
 
                     <!-- TEXT -->
-                     <div class="flex flex-col items-center bg-white rounded-xl pt-8 px-8 pb-2">
+                     <div class="flex flex-col items-center bg-white rounded-xl py-8 px-8 gap-3">
                         <div class="text-sub2 font-medium">Incredible Experience</div>
-                        <div class="text-body-2">We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.</div>
+                        <div class="text-body-2 text-center">We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.</div>
                      </div>
                      
                       <!-- TRIANGLE-DOWN -->
@@ -52,9 +74,9 @@
                 <div class="flex flex-col items-center">
 
                     <!-- TEXT -->
-                     <div class="flex flex-col items-center bg-white rounded-xl pt-8 px-8 pb-2">
+                     <div class="flex flex-col items-center bg-white rounded-xl py-8 px-8 gap-3">
                         <div class="text-sub2 font-medium">Incredible Experience</div>
-                        <div class="text-body-2">We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.</div>
+                        <div class="text-body-2 text-center">We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.</div>
                      </div>
                      
                       <!-- TRIANGLE-DOWN -->
@@ -70,7 +92,30 @@
                       </div>
                 </div>
 
+                <!-- DOTS -->
+                 <div class="col-span-2 flex justify-center gap-3">
+                    <div class="fill-dot"></div>
+                    <div class="outline-dot"></div>
+                    <div class="outline-dot"></div>
+                 </div>
             </div>
+        </div>
+
+        <!-- SECTION 2 -->
+         <div class="container grid grid-cols-2 my-16 gap-8">
+            <!-- IMAGES -->
+            <div class="object-fill">
+                <img src="img/Creative.png" alt="">
+            </div>
+
+            <!-- TEXT -->
+            <div class="flex flex-col justify-center">
+                <div class="text-body2 font-bold text-cyan-500 mb-2">CONSULTANT</div>
+                <div class="text-h3 font-extrabold">Headline</div>
+                <div class="text-lead1 my-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.</div>
+                <div class="text-body text-primary font-medium">Get started</div>
+            </div>
+         </div>
     </div>
 </body>
 </html>
