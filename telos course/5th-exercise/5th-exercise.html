@@ -1,0 +1,206 @@
+<html lang="en">
+<head>
+    <title>5th Exercise</title>
+
+     <!-- EMBED FONTS -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+ 
+     <!-- LINK CSS -->
+      <link rel="stylesheet" href="output.css">
+
+      <!-- LINK ANIMATE -->
+      <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    
+    <!-- LINK WOW -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    
+</head>
+<body>
+    <script>
+        new WOW().init();
+        </script>
+
+    <style>
+        .animation:hover {
+            animation-name: scaleHover;
+            animation-duration: 300ms;
+            transition-duration: all;
+      
+        }
+
+
+        @keyframes scaleHover{
+            0% {scale: 1;}
+            100% {scale: 1.05;}
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 20px;
+            border-radius: 6px;
+            background-color: ;
+            color: white;
+        }
+    </style>
+
+
+    <div class="flex flex-col items-center">
+        <!-- SECTION 1 -->
+        <div class="container flex flex-col gap-12 py-20 p-4 md:p-8 lg:p-16">
+            <div class="text-h2 font-extrabold self-start">Selected works</div>
+        
+        <!-- PROJECTS LIST -->
+         <div class="grid sm:grid-cols-2 gap-x-28 gap-y-20">
+
+            <!-- PROJECT CARD -->
+             <div class="flex flex-col gap-6 animate__animated animate__fadeInLeft">
+                <div class="text-h4"><span class="font-bold">Byte</span> - New looping video app</div>
+
+                <img src="img/Project Cover.png" alt="">
+
+                <div class="flex justify-between items-center">
+                    <div class="text-body2 font-bold">APP DESIGN</div>
+                    <div class="flex justify-center items-center px-5 py-2 rounded-md bg-primary text-white animation">Know more</div>
+                </div>
+
+                <div class="w-full h-[1px] bg-gray-200"></div>
+             </div>
+
+             <!-- PROJECT CARD -->
+             <div class="flex flex-col gap-6 animate__animated animate__fadeInRight">
+                <div class="text-h4"><span class="font-bold">Slideban</span> - Pitch deck design</div>
+
+                <img src="img/Project Cover-1.png" alt="">
+
+                <div class="flex justify-between items-center">
+                    <div class="text-body2 font-bold">BRANDING</div>
+                    <div class="flex justify-center items-center px-5 py-2 rounded-md bg-primary text-white animation">Know more</div>
+                </div>
+
+                <div class="w-full h-[1px] bg-gray-200"></div>
+             </div>
+
+             <!-- PROJECT CARD -->
+             <div class="flex flex-col gap-6 animate__animated animate__fadeInLeft animate__slow">
+                <div class="text-h4"><span class="font-bold">Dashkit</span> - Track your sales</div>
+
+                <img src="img/Project Cover-2.png" alt="">
+
+                <div class="flex justify-between items-center">
+                    <div class="text-body2 font-bold">WEB APP</div>
+                    <div class="flex justify-center items-center px-5 py-2 rounded-md bg-primary text-white animation">Know more</div>
+                </div>
+
+                <div class="w-full h-[1px] bg-gray-200"></div>
+             </div>
+
+             <!-- PROJECT CARD -->
+             <div class="flex flex-col gap-6 animate__animated animate__fadeInRight animate__slow">
+                <div class="text-h4"><span class="font-bold">Apple park</span> - Augmented realityt</div>
+
+                <img src="img/Project Cover-3.png" alt="">
+
+                <div class="flex justify-between items-center">
+                    <div class="text-body2 font-bold">AUGMENTED REALITY</div>
+                    <div class="button bg-primary">Know more</div>
+                </div>
+
+                <div class="w-full h-[1px] bg-gray-200"></div>
+             </div>
+         </div>
+        </div>
+
+        <!-- SECTION FOOTER -->
+         <div class="bg-gray-950 w-full relative">
+            <div class="hidden sm:flex absolute right-0 h-full"><img src="img/White.png" alt=""></div>
+
+            <div class="flex flex-col items-center m-4 md:m-8 lg:m-16">
+                 <!-- MENU -->
+             <div class="container grid sm:grid-cols-4 gap-x-7 gap-y-16 my-24 animate__animated animate__fadeInUp wow">
+                <!-- COLUMN 1 -->
+                <div class="flex flex-col gap-6 items-center sm:items-start">
+                    <div><img src="img/Light.png" alt=""></div>
+
+                    <div class="text-body2 text-white text-center sm:text-left">Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc quam ac sed turpis volutpat. Cursus sed massa non nisi, placerat.</div>
+
+                    <div class="flex gap-4 items-center sm:items-start">
+                        <img src="img/Social Icons.png" alt="">
+                        <img src="img/Social Icons-1.png" alt="">
+                        <img src="img/Social Icons-2.png" alt="">
+                        <img src="img/Social Icons-3.png" alt="">
+                    </div>
+                </div>
+
+                 <!-- COLUMN 2 -->
+                 <div class="flex flex-col gap-6 items-center sm:items-start">
+                    <div class="text-h6 font-medium text-white">Quick Links</div>
+
+                    <div class="flex flex-col gap-3 items-center sm:items-start">
+                        <div class="text-body2 text-white">Portfolio</div>
+                        <div class="text-body2 text-white">Blogs</div>
+                        <div class="text-body2 text-white">About</div>
+                        <div class="text-body2 text-white">Press</div>
+                        <div class="text-body2 text-white">Careers</div>
+                    </div>
+                </div>
+
+                <!-- COLUMN 3 -->
+                <div class="flex flex-col gap-6 items-center sm:items-start">
+                    <div class="text-h6 font-medium text-white">Services</div>
+
+                    <div class="flex flex-col gap-3 items-center sm:items-start">
+                        <div class="text-body2 text-white">UX/UI Design</div>
+                        <div class="text-body2 text-white">App Development</div>
+                        <div class="text-body2 text-white">Web Development</div>
+                        <div class="text-body2 text-white">Quality Assurance</div>
+                        <div class="text-body2 text-white">Machine Learning</div>
+                    </div>
+                </div>
+
+                <!-- COLUMN 4 -->
+                <div class="flex flex-col gap-6 items-center sm:items-start">
+                    <div class="text-h6 font-medium text-white">Reach us</div>
+
+                    <div class="flex flex-col gap-6 items-center sm:items-start">
+                        <div class="flex gap-2">
+                            <div class="shrink-0"><img src="img/email-icon.png" alt=""></div>
+                            <div class="text-body2 text-white">hello@landify.co</div>
+                        </div>
+                        <div class="flex gap-2">
+                            <div class="shrink-0"><img src="img/phone-icon.png" alt=""></div>
+                            <div class="text-body2 text-white">+91 98765 43210</div>
+                        </div>
+                        <div class="flex gap-2">
+                           <div class="shrink-0"><img src="img/location-icon.png" alt=""></div>
+                            <div class="text-body2 text-white">772 Lyonwood Ave
+                                Walnut, CA 91789</div>
+                        </div>
+                       
+                    </div>
+                </div>
+             </div>
+                <!-- SMALL TEXT -->
+             <div class="container flex flex-col sm:flex-row justify-between items-center mb-6 animate__animated animate__fadeInUp wow animate__slower">
+                <div class="text-body2 text-white">© 2020 Landify UI Kit. All rights reserved</div>
+                <div class="flex gap-2">
+                    <div class="text-body2 text-white">Terms & Conditions</div>
+                    <div class="text-body2 text-white">|</div>
+                    <div class="text-body2 text-white">Privacy Policy</div>
+                    <div class="text-body2 text-white">|</div>
+                    <div class="text-body2 text-white">Sitemap</div>
+                    <div class="text-body2 text-white">|</div>
+                    <div class="text-body2 text-white">Disclaimer</div>
+                </div>
+             </div>
+            </div>
+         </div>
+    </div>
+</body>
+</html>
