@@ -1,5 +1,5 @@
 function changeColor() {
-    document.getElementsByClassName("button");
+    document.getElementById("jsbutton").classList.toggle("bg-primary");
+    document.getElementById("jsbutton").classList.toggle("bg-black");
 
-    
 }

@@ -18,6 +18,9 @@
     
     <!-- LINK WOW -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <script src="js-exercise.js"></script>
+
     
 </head>
 <body>
@@ -47,7 +50,8 @@
             border-radius: 6px;
             background-color: ;
             color: white;
-        }
+            flex-shrink: 0;
+                }
     </style>
 
 
@@ -109,7 +113,7 @@
 
                 <div class="flex justify-between items-center">
                     <div class="text-body2 font-bold">AUGMENTED REALITY</div>
-                    <div class="button bg-primary">Know more</div>
+                    <div id="jsbutton"  onclick="changeColor()" class="flex justify-center items-center px-5 py-2 rounded-md bg-primary text-white animation">Know more</div>
                 </div>
 
                 <div class="w-full h-[1px] bg-gray-200"></div>
